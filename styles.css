@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+}
+
+
+.google-logo {
+    width:350px;
+
+}
+
+.search-input {
+    width:625px;
+    padding:10px;
+    border-radius: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.441);
+    margin-bottom:35px;
+    margin-top: -40px;
+    padding-left: 50px;
+    padding-right:80px;
+}
+
+button {
+    color:rgb(69, 66, 66);
+    background-color:rgba(128, 128, 128, 0.048);
+    border:none;
+    padding:10px;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-right:7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 0px 2px grey;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  left:20px;
+  top:2px;
+  color:rgba(128, 128, 128, 0.646);
+  
+}
+
+.fa-microphone {
+  position:absolute;
+  right:60px;
+}
+
+.fa-camera {
+  position:absolute;
+  right:20px;
+}
+
+.fa-magnifying-glass, .fa-camera, .fa-microphone {
+  color:rgba(128, 128, 128, 0.646);
+}
+
+.search-input-container {
+  position:relative;
+}
